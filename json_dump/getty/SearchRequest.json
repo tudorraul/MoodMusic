@@ -1,0 +1,36 @@
+{
+    "RequestHeader":{
+        "Token":"f9hnH05O0z13J3wtRW9p0hH3p9tIjC+VJBcZre5G3DD+iv2UGXlp/s2cUAQUkoQAQTjJjK4HX1KbbMbXT91mL3YVR9KRBfg7lLYn0cWmh79BSwG4iiQmsQp5o64hWz2nOSmfjrUQETf7H+ww8gPsRAI8QVIR1EbUMk278djzSY0=|77u/TkhwRTdkd1M2c3BBSHR0Nk5nMEQKMTA3OTkKODc0NTM3OApQZEpmQlE9PQpSZGxmQlE9PQowCjEwNzk5Cjg0LjIwNy4yNTIuNAowCjEwNzk5ClBVZHlCUT09CjEwNzk5Cg==|3",
+        "CoordinationId":""
+    },
+    "SearchForImagesRequestBody":{
+        "Filter":{
+            "FileTypes":[
+                ""
+            ],
+            "GraphicStyles":[
+                ""
+            ],
+            "ImageFamilies":[
+                "creative"
+            ]
+        },
+        "Language":"",
+        "Query":{
+            "SearchPhrase":"happy feeling",
+            "KeywordIds":[
+                ""
+            ],
+            "SpecificPersons":[
+                ""
+            ]
+        },
+        "ResultOptions":{
+            "IncludeKeywords":false,
+            "ItemCount":10,
+            "ItemStartNumber":1,
+            "RefinementOptionsSet":"",
+            "CreativeSortOrder":"mostpopular"
+        }
+    }
+}

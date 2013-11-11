@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="reset.css" media="all">
+    <link rel="stylesheet" type="text/css" href="app.css?" media="all">
+    <script src="http://documentcloud.github.io/underscore/underscore-min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="https://connect.soundcloud.com/sdk.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        moodMusic = {
+
+            observer:$('body')
+
+        };
+    </script>
+    <script type="text/javascript" src="js/model.js"></script>
+    <script type="text/javascript" src="js/view.js"></script>
+    <script type="text/javascript" src="js/gettyClient.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</head>
+<body id="main">
+
+<div id="screens">
+    <div id="moodPlaylist" class="playlist"></div>
+
+    <div id="placesPlaylist" class="playlist inactive"></div>
+
+    <div id="nowPlaying" class="inactive">
+        <div class="controls">
+            <div class="buttons">buttons</div>
+            <div class="songs">songs</div>
+        </div>
+    </div>
+</div>
+
+<div id="toolbar">
+    <div class="left">
+        <a href="#" class="button active"></a>
+    </div>
+    <div class="right">
+        <a href="#" class="button"></a>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        var moodPlaylist = $('#moodPlaylist');
+        var placesPlaylist = $('#placesPlaylist');
+        var nowPlaying = $('#nowPlaying');
+        var toolbarLeft = $("#toolbar .left");
+        var toolbarRight = $("#toolbar .right");
+
+        toolbarLeft.on("click", function () {
+            moodPlaylist.removeClass("inactive");
+            placesPlaylist.addClass("inactive");
+            nowPlaying.addClass("inactive");
+
+            toolbarLeft.find(".button").addClass('active');
+            toolbarRight.find(".button").removeClass('active');
+
+//            moodMusic.view.nowPlaying.stop()
+        });
+        toolbarRight.on("click", function () {
+            placesPlaylist.removeClass("inactive");
+            moodPlaylist.addClass("inactive");
+            nowPlaying.addClass("inactive");
+
+            toolbarLeft.find(".button").removeClass('active');
+            toolbarRight.find(".button").addClass('active');
+
+//            moodMusic.view.nowPlaying.stop()
+        });
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+Getty API
+
+CREATE SESSION
+
+
+
+SEARCH
+
+{
+  "RequestHeader": {
+  "Token": "gDVPspOKJeK71oSxJSFwam5+U2yHeUq1uoZBGY4Rsg/WrZAai2e2paMKEKqNvL0evz745ic1UW79G5sxtZEWOhMdyFPu4Cg9K+cQlA8SrcYAf1paeBistnF6keAoFQvygy2xw0/6HSiC+uCSA3sfjbphcG/Jz06UfXV+fmXQv4w=|77u/ZWRkSkNLL09vbnBUZytDL1ZmWXgKMTA3OTkKODc0NTM3OApIc3RmQlE9PQpKdEpmQlE9PQowCjEwNzk5Cjg0LjIwNy4yNTIuNAowCjEwNzk5CkhrQnlCUT09CjEwNzk5Cg==|3",
+  "CoordinationId": ""
+  },
+  "SearchForImagesRequestBody": {
+    "Filter": {
+      "FileTypes": [
+        ""
+      ],
+      "GraphicStyles": [
+        ""
+      ],
+      "ImageFamilies": [
+        "creative"
+      ]
+    },
+  "Language": "",
+  "Query": {
+    "SearchPhrase": "happy feeling",
+    "KeywordIds": [
+      ""
+    ],
+    "SpecificPersons": [
+      ""
+    ]
+  },
+  "ResultOptions": {
+    "IncludeKeywords": false,
+    "ItemCount": 10,
+    "ItemStartNumber": 1,
+    "RefinementOptionsSet": "",
+    "EditorialSortOrder": "",
+    "CreativeSortOrder": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "RequestHeader":{
+        "Token":"",
+        "CoordinationId":""
+    },
+    "CreateSessionRequestBody":{
+        "SystemId":"10799",
+        "SystemPassword":"vMK8LPFBcaA0JWug3VReKcN45TtzCVtqWjnuLcHbyF0=",
+        "UserName":"seedhacklon_api",
+        "UserPassword":"HJARZH1p7awxi68",
+    }
+}

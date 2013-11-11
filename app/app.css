@@ -1,0 +1,94 @@
+body {
+    background: #888;
+}
+#screens .inactive {
+    display: none;
+}
+
+.playlist .moodCard {
+    height: 30rem;
+}
+
+.playlist .image {
+    position: relative;
+    height: 30rem;
+    overflow: hidden;
+    background: transparent no-repeat 70% 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.playlist .image .text {
+    font-family: Helvetica, sans-serif;
+    color: #fff;
+    font-size: 2rem;
+    padding-right: 0.8em;
+    padding-top: 4.8em;
+    text-shadow: 2px 2px #444;
+    background-color: transparent;
+}
+
+#toolbar {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 6em;
+    text-align: center;
+    padding: 1em 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#toolbar .button {
+    height: 5em;
+    width: 5em;
+    float: left;
+    background-size: cover;
+}
+
+#toolbar .left {
+    margin-left: 36%
+}
+
+#toolbar .left a {
+    background-image: url(img/mood_inactive.png);
+}
+
+#toolbar .left .active {
+    background-image: url(img/mood_active.png);
+}
+
+#toolbar .right {
+    margin-left: 5%;
+    clear: right;
+}
+
+#toolbar .right a {
+    background-image: url(img/places_inactive.png);
+}
+
+#toolbar .right .active {
+    background-image: url(img/places_active.png);
+}
+
+#nowPlaying .bigImage {
+    position: relative;
+    height: 50em;
+    background: transparent no-repeat 70% 60%;
+    width: 100%;
+    background-size: cover;
+}
+
+#nowPlaying .text {
+    font-family: Helvetica, sans-serif;
+    color: #fff;
+    font-size: 2rem;
+    padding-right: 0.8em;
+    padding-top: 0.8em;
+    text-align: center;
+    width: 100%;
+    text-shadow: 2px 2px #444;
+    background-color: transparent;
+}

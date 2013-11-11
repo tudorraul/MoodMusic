@@ -1,0 +1,13 @@
+{
+    "ResponseHeader":{
+        "Status":"success",
+        "StatusList":[
+        ]
+    },
+    "CreateSessionResult":{
+        "Token":"f9hnH05O0z13J3wtRW9p0hH3p9tIjC+VJBcZre5G3DD+iv2UGXlp/s2cUAQUkoQAQTjJjK4HX1KbbMbXT91mL3YVR9KRBfg7lLYn0cWmh79BSwG4iiQmsQp5o64hWz2nOSmfjrUQETf7H+ww8gPsRAI8QVIR1EbUMk278djzSY0=|77u/TkhwRTdkd1M2c3BBSHR0Nk5nMEQKMTA3OTkKODc0NTM3OApQZEpmQlE9PQpSZGxmQlE9PQowCjEwNzk5Cjg0LjIwNy4yNTIuNAowCjEwNzk5ClBVZHlCUT09CjEwNzk5Cg==|3",
+        "SecureToken":"hULP0afS22NwBkKOCk7CwCIVccjd0vtksymwcONqvHNNApWYtcLjohJPlRyg/03trlIRKnMrPHlfkN2/Bagt/vFg4C6zCC/svTf+EkFzfki17KO/wMQH+qi90PjR1hRp45GQ/FTUmsE6ZARH5DLQkQ5lzluLKpFulzc2l+nFHDU=|77u/Y2YwSEJhMWE1M1YwV05uK05Vd3YKMTA3OTkKODc0NTM3OApIc3RmQlE9PQpKdEpmQlE9PQoxCjEwNzk5Cjg0LjIwNy4yNTIuNAowCjEwNzk5Cm5oeGhCUT09CjEwNzk5Cg==|3",
+        "TokenDurationMinutes":30
+    }
+}
+
